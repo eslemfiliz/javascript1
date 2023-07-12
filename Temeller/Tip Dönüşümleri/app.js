@@ -84,26 +84,38 @@ value=Math.random();
 
 
 
-let value;
- const firstName="Louis";
- const lastName="Armstrong";
+// let value;
+//  const firstName="Louis";
+//  const lastName="Armstrong";
 
  
- value= firstName  + " " +   lastName;
+//  value= firstName  + " " +   lastName;
 
-//  value =firstName.toLowerCase();
- value =firstName.toUpperCase();
-// console.log(value);
-
-
-
-// value= firstName[0];
-value=firstName[firstName.length-1];
-// console.log(value);
+// //  value =firstName.toLowerCase();
+//  value =firstName.toUpperCase();
+// // console.log(value);
 
 
-// Index of
 
-value=firstName.indexOf("L");
-console.log(value);
+// // value= firstName[0];
+// value=firstName[firstName.length-1];
+// // console.log(value);
+
+
+// // Index of
+
+// value=firstName.indexOf("L");
+
+
+
+const langs=["Python","Java","JavaScript"];
+
+let index=0;
+
+while (index<langs.length){
+   console.log(langs[index]);
+   index++;
+
+}
+
 
